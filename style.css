@@ -1,0 +1,24 @@
+body {
+    font-family: Inter,  sans-serif; /* La famiglia del font */
+    font-size: 11px; /* La dimensione del font principale nei tag <p></p> */
+    background-color: #2c3141; /* Il colore dello sfondo della pagina web */
+    color: #ffffff; /* Il colore del testo */ 
+}
+h1 {
+    color: #D6FF6B; /* Il colore dell'intestazione */
+    font-size: 24px; /* La dimensione del font dell'intestazione */
+    font-family: Inter, sans-serif; /* La famiglia del font usata nell'intestazione */
+    animation: colore 3s ease-in-out; /* L'animazione del colore dell'intestazione */
+}
+
+@keyframes colore {
+    0% { color: blue; }
+    50% { color: purple; }
+    100% { color: red; }
+}
+
+
+.testo_sottolineato{
+    text-decoration-color: #FD98FB;
+    text-decoration-line: underline;
+}
